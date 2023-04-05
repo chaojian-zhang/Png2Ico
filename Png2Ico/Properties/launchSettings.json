@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Png2Ico": {
+      "commandName": "Project",
+      "commandLineArgs": "Icon.png Icon.ico",
+      "workingDirectory": "C:\\Intermediate\\Projects\\DesignAssistant\\Assets"
+    }
+  }
+}
