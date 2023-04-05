@@ -9,7 +9,7 @@ $PublishFolder = "$PSScriptRoot\GithubBuild"
 Remove-Item $PublishFolder -Recurse -Force
 
 # dotnet publish new
-dotnet publish $PSScriptRoot\Png2Ico\Png2Ico.csproj --output $PublishFolder
+dotnet publish $PSScriptRoot\Png2Ico\Png2Ico.csproj --runtime win-x64 --self-contained false --output $PublishFolder /p:PublishSingleFile=true
 
 # Create archive
 $Date = Get-Date -Format yyyyMMdd
