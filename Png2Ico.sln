@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Png2Ico", "Png2Ico\Png2Ico.csproj", "{DCB81532-71BE-49C1-A46A-C53B21BBDE1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AB28150-6E4E-4BD6-A662-F43573A70783}"
+	ProjectSection(SolutionItems) = preProject
+		Build.ps1 = Build.ps1
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
